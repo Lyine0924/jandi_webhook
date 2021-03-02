@@ -15,7 +15,7 @@ module Fastlane
         }
 
         message = {
-          body: "#{params[:appName]} 테스트 앱이 배포되었습니다.\n#{params[:link]}",
+          body: "#{params[:appName]} 앱이 배포되었습니다.\n#{params[:link]}",
           connectColor: "#ea002c",
           connectInfo: [
             {
